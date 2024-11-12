@@ -41,9 +41,9 @@ const App = () => {
 
   return (
     <div>
-      <header>
-        <button onClick={() => setView('products')}>Product List</button>
-        <button onClick={() => setView('cart')}>Cart ({cart.length})</button>
+      <header className="header">
+        <button onClick={() => setView('products')} className="nav-button">Product List</button>
+        <button onClick={() => setView('cart')} className="nav-button">Cart ({cart.length})</button>
       </header>
 
       {view === 'products' && <ProductList addToCart={addToCart} />}

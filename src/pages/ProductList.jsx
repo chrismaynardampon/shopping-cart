@@ -9,7 +9,7 @@ const ProductList = ({ addToCart }) => {
   const { products, loading, error } = useProducts();
   const [filter, setFilter] = useState('');
 
-  if (loading) return <p>Loading products...</p>;
+  if (loading) return <p style={{textAlign: 'center'}}>Loading products...</p>;
   if (error) return <p>Error loading products: {error.message}</p>;
 
   const filteredProducts = products.filter((product) =>
