@@ -27,11 +27,8 @@ To run the project, follow these steps:
 - React
   - react-dom
   - react-router-dom
-- Redux
-  - redux
-  - react-redux
 - Axios
-- Material-UI
+- Vite
 
 ## Image of the Shopping Cart
 ![Shopping Cart](public/scrnsht.png)
